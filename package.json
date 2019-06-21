@@ -9,6 +9,10 @@
     "builddev": "webpack --mode development",
     "start": "webpack-dev-server --mode development --open"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/midesweb/fullcalendar-webcomponent.git"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
