@@ -1,0 +1,25 @@
+{
+  "name": "fullcalendar-webcomponent",
+  "version": "0.0.0",
+  "description": "Demo Fullcalendar in a LitElement component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "builddev": "webpack --mode development",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  },
+  "dependencies": {
+    "@fullcalendar/core": "^4.2.0",
+    "@fullcalendar/daygrid": "^4.2.0",
+    "lit-element": "^2.1.0"
+  }
+}
